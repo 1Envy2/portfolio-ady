@@ -4,23 +4,22 @@ import About from "@/components/about";
 import React from "react";
 import { cn } from "@/utils/cn";
 import Project from "@/components/project";
+import FloatingDockDemo from "@/components/skill";
 export default function Home() {
   return (
     <div className=" bg-radial-[at_50%_25%] from-blue-900 to-slate-950 to-90%">
       <Navigation />
       <div>
-        {/* Hero Section yang memenuhi satu layar penuh */}
-        <div
-          className={cn("w-screen h-screen flex items-center justify-center mx-6")}
-        >
+        <div className={cn("h-screen flex items-center justify-center")}>
           <Hero />
         </div>
 
-        <div id="about" className="py-20 lg:mx-52 mx-6">
+        <div id="about" className="py-20 lg:mx-52">
           <About />
         </div>
-        <div id="project" className="mx-6" >
+        <div id="project" className=" h-screen pt-20">
           <Project></Project>
+          <FloatingDockDemo></FloatingDockDemo>
         </div>
       </div>
     </div>
