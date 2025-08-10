@@ -35,7 +35,7 @@ const Navigation = () => {
   const menuItems = ["Home", "About Us", "Project", "Contact Us"];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} >
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="fixed">
       <NavbarContent>
         <NavbarBrand>
           <AcmeLogo />
@@ -50,12 +50,12 @@ const Navigation = () => {
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link aria-current="page" href="#">
+          <Link aria-current="page" href="#about">
             About Us
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#project">
             Project
           </Link>
         </NavbarItem>

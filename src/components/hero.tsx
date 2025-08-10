@@ -1,22 +1,21 @@
 import { FlipWords } from "./ui/flip-words";
+
 const Hero = () => {
   return (
-    <div >
-      <h1 className="text-white flex flex-col justify-center items-center w-full text-5xl mb-4 font-bold">
-        Hi, Im Ady
+    <div>
+      <h1 className="text-white flex flex-col justify-center items-center text-5xl font-bold mb-4">
+        Hi, I'm Ady
       </h1>
 
-      <p className="flex flex-col justify-center items-center">
-        <FlipWords
-          words={[
-            "Fullstack Developer",
-            "Frontend Developer",
-            "Backend Developer",
-          ]}
-          duration={2000}
-          className="text-white text-5xl mb-4"
-        />
-      </p>
+      <FlipWords
+        words={[
+          "Fullstack Developer",
+          "Frontend Developer",
+          "Backend Developer",
+        ]}
+        duration={2000}
+        className="text-white text-5xl mb-4"
+      />
 
       <p className="text-lg text-white flex flex-col justify-center items-center">
         Saya adalah mahasiswa dari universitas lampung.
