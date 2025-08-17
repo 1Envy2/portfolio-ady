@@ -9,10 +9,10 @@ import {
   NavbarMenu,
   NavbarMenuItem,
 } from "@heroui/navbar";
-import { Roboto } from "next/font/google";
+import { Fredoka } from "next/font/google";
 import { Link, Button } from "@heroui/react";
 
-const roboto = Roboto({
+const Fredoka_One = Fredoka({
   subsets: ["latin"],
 });
 
@@ -37,9 +37,9 @@ const Navigation = () => {
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} className="fixed">
       <NavbarContent>
-        <NavbarBrand>
-          <AcmeLogo />
-          <p className="font-bold text-inherit">Adyatma Yusuf Farabi </p>
+        <NavbarBrand className="gap-2">
+          <img src="/images/logo/logo black.png" alt="Logo" width={25}/>
+          <p className="font-bold text-inherit">1Envy2</p>
         </NavbarBrand>
       </NavbarContent>
 
@@ -60,7 +60,7 @@ const Navigation = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#contact">
             Contact Us
           </Link>
         </NavbarItem>

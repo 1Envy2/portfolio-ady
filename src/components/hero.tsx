@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div>
       <h1 className="text-white flex flex-col justify-center items-center text-5xl font-bold mb-4">
-        Hi, Im Ady
+        Hi, I&apos;m Ady
       </h1>
 
       <FlipWords
