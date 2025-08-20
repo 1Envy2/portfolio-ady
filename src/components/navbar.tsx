@@ -27,28 +27,28 @@ const Navigation = () => {
       <NavbarContent>
         <NavbarBrand className="gap-2">
           <img src="/images/logo/logo black.png" alt="Logo" width={25}/>
-          <p className="font-bold text-[#E2E8F0]">1Envy2</p>
+          <p className=" text-[#E2E8F0]">1Envy2</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="Home" className="text-[#E2E8F0] font-semibold hover:font-medium hover:text-violet-600" >
+          <Link color="foreground" href="Home" className="text-[#E2E8F0]  hover:font-medium hover:text-[#F96846]" >
             Home
           </Link>
         </NavbarItem>
         <NavbarItem >
-          <Link color="foreground" href="#about" className="text-[#E2E8F0] font-semibold hover:font-medium hover:text-violet-600">
+          <Link color="foreground" href="#about" className="text-[#E2E8F0]  hover:font-medium hover:text-[#F96846]">
             About Us
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#project" className="text-[#E2E8F0] font-semibold hover:font-medium hover:text-violet-600">
+          <Link color="foreground" href="#project" className="text-[#E2E8F0]  hover:font-medium hover:text-[#F96846]">
             Project
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#contact" className="text-[#E2E8F0] font-semibold hover:font-medium hover:text-violet-600">
+          <Link color="foreground" href="#contact" className="text-[#E2E8F0]  hover:font-medium hover:text-[#F96846]">
             Contact Us
           </Link>
         </NavbarItem>

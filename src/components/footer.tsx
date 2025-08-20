@@ -15,16 +15,16 @@ const Footer = () => {
       </div>
       <div>
         <ul className="flex flex-row gap-4 justify-center items-center text-lg">
-          <li className=" z-1 hover:text-violet-400   ">
+          <li className=" z-1 hover:text-[#F96846]   ">
             <a href="#Home">Home</a>
           </li>
-          <li className=" z-1 hover:text-violet-400">
+          <li className=" z-1 hover:text-[#F96846]">
             <a href="#about">About Us</a>
           </li>
-          <li className=" z-1 hover:text-violet-400">
+          <li className=" z-1 hover:text-[#F96846]">
             <a href="#project">Project</a>
           </li>
-          <li className=" z-1 hover:text-violet-400">
+          <li className=" z-1 hover:text-[#F96846]">
             <a href="#contact">Contact Us</a>
           </li>
         </ul>
@@ -34,40 +34,40 @@ const Footer = () => {
         <a
           href="https://github.com/1Envy2"
           target="_blank"
-          className="z-1 relative overflow-hidden rounded-xl p-[1px] hover:-translate-y-1 hover:scale-110 hover:shadow-xl/30 shadow-violet-600 "
+          className="z-1 relative overflow-hidden rounded-xl p-[1px] hover:-translate-y-1 hover:scale-110 hover:shadow-xl/30 shadow-[#F96846] "
         >
-          <div className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-          <div className="inline-flex h-full w-full  rounded-xl bg-slate-950 p-3 backdrop-blur-3xl hover:-translate-y-1 hover:scale-110 hover:bg-violet-600">
+          <div className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#F96846_0%,#4FD1C5_50%,#F96846_100%)]" />
+          <div className="inline-flex h-full w-full  rounded-xl bg-slate-950 p-3 backdrop-blur-3xl hover:-translate-y-1 hover:scale-110 hover:bg-[#F96846]">
             <FiGithub className="size-5" />
           </div>
         </a>
         <a
           href="https://www.instagram.com/adyatma_12/"
           target="_blank"
-          className="z-1 relative overflow-hidden rounded-xl p-[1px] hover:-translate-y-1 hover:scale-110 hover:shadow-xl/30 shadow-violet-600 "
+          className="z-1 relative overflow-hidden rounded-xl p-[1px] hover:-translate-y-1 hover:scale-110 hover:shadow-xl/30 shadow-[#F96846] "
         >
-          <div className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-          <div className="inline-flex h-full w-full  rounded-xl bg-slate-950 p-3 backdrop-blur-3xl hover:-translate-y-1 hover:scale-110 hover:bg-violet-600">
+          <div className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#F96846_0%,#4FD1C5_50%,#F96846_100%)]" />
+          <div className="inline-flex h-full w-full  rounded-xl bg-slate-950 p-3 backdrop-blur-3xl hover:-translate-y-1 hover:scale-110 hover:bg-[#F96846]">
             <FiInstagram className="size-5" />
           </div>
         </a>
         <a
           href="https://x.com/AdyatmaYusuf"
           target="_blank"
-          className="z-1 relative overflow-hidden rounded-xl p-[1px] hover:-translate-y-1 hover:scale-110 hover:shadow-xl/30 shadow-violet-600 "
+          className="z-1 relative overflow-hidden rounded-xl p-[1px] hover:-translate-y-1 hover:scale-110 hover:shadow-xl/30 shadow-[#F96846] "
         >
-          <div className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-          <div className="inline-flex h-full w-full  rounded-xl bg-slate-950 p-3 backdrop-blur-3xl hover:-translate-y-1 hover:scale-110 hover:bg-violet-600">
+          <div className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#F96846_0%,#4FD1C5_50%,#F96846_100%)]" />
+          <div className="inline-flex h-full w-full  rounded-xl bg-slate-950 p-3 backdrop-blur-3xl hover:-translate-y-1 hover:scale-110 hover:bg-[#F96846]">
             <FaXTwitter className="size-5" />
           </div>
         </a>
         <a
           href="https://www.linkedin.com/in/adyatma-yusuf-farabi-1529b5344/"
           target="_blank"
-          className="z-1 relative overflow-hidden rounded-xl p-[1px] hover:-translate-y-1 hover:scale-110 hover:shadow-xl/30 shadow-violet-600 "
+          className="z-1 relative overflow-hidden rounded-xl p-[1px] hover:-translate-y-1 hover:scale-110 hover:shadow-xl/30 shadow-[#F96846] "
         >
-          <div className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-          <div className="inline-flex h-full w-full  rounded-xl bg-slate-950 p-3 backdrop-blur-3xl hover:-translate-y-1 hover:scale-110 hover:bg-violet-600">
+          <div className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#F96846_0%,#4FD1C5_50%,#F96846_100%)]" />
+          <div className="inline-flex h-full w-full  rounded-xl bg-slate-950 p-3 backdrop-blur-3xl hover:-translate-y-1 hover:scale-110 hover:bg-[#F96846]">
             <FaLinkedinIn className="size-5" />
           </div>
         </a>

@@ -27,7 +27,7 @@ export default function Home() {
           <Hero />
         </motion.div>
       </div>
-      <div className="bg-[#00071E]">
+      <div className="bg-[#0F172A]">
         <div id="about" className="py-20 px-66 ">
           <About />
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
       >
         <Contact></Contact>
       </div>
-      <div className="bg-[#130922]">
+      <div className="bg-[#0F172A]">
 
       <Footer></Footer>
       </div>

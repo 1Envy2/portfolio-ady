@@ -7,10 +7,10 @@ const ContainerCard = ({image}: Props) => {
   return (
     <div className="flex flex-wrap justify-center items-center">
       <CardContainer className="">
-        <CardBody className="bg-[#060C26] relative border-[#16213E] w-auto h-auto rounded-xl p-6 border-2">
+        <CardBody className="bg-[#17202e] relative border-[#4FD1C5] w-auto h-auto rounded-xl p-6 border-1">
           <CardItem
             translateZ="50" // Efek 3D
-            className="text-xl font-bold text-white dark:text-white"
+            className="text-xl font-bold text-[#E2E8F0] dark:text-white"
           >
             Halo, saya Ady
           </CardItem>
@@ -18,7 +18,7 @@ const ContainerCard = ({image}: Props) => {
           <CardItem
             as="p"
             translateZ="60" // Efek 3D
-            className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            className="text-[#E2E8F0] text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
             Seorang Fullstack Developer
           </CardItem>
@@ -37,7 +37,7 @@ const ContainerCard = ({image}: Props) => {
             <CardItem
               translateZ={20} // Efek 3D
               as="button"
-              className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+              className="px-4 py-2 rounded-xl text-xs font-normal text-[#E2E8F0] dark:text-white"
             >
               Coba klik →
             </CardItem>
@@ -45,7 +45,7 @@ const ContainerCard = ({image}: Props) => {
             <CardItem
               translateZ={20} // Efek 3D
               as="button"
-              className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+              className="px-4 py-2 rounded-xl bg-[#F96846] dark:bg-white dark:text-black text-white text-xs font-bold"
             >
               Hubungi saya
             </CardItem>
