@@ -1,4 +1,3 @@
-import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const About = () => {
   const words = `Saya Adyatma Yusuf Farabi, mahasiswa jurusan Ilmu Komputer di

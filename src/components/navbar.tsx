@@ -12,22 +12,10 @@ import {
 import { Fredoka } from "next/font/google";
 import { Link, Button } from "@heroui/react";
 
+
 const Fredoka_One = Fredoka({
   subsets: ["latin"],
 });
-
-export const AcmeLogo = () => {
-  return (
-    <svg fill="none" height="36" viewBox="0 0 32 32" width="36">
-      <path
-        clipRule="evenodd"
-        d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-        fill="currentColor"
-        fillRule="evenodd"
-      />
-    </svg>
-  );
-};
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -35,32 +23,32 @@ const Navigation = () => {
   const menuItems = ["Home", "About Us", "Project", "Contact Us"];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="fixed">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="fixed bg-black/10">
       <NavbarContent>
         <NavbarBrand className="gap-2">
           <img src="/images/logo/logo black.png" alt="Logo" width={25}/>
-          <p className="font-bold text-inherit">1Envy2</p>
+          <p className="font-bold text-[#E2E8F0]">1Envy2</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="Home" className="text-[#E2E8F0] font-semibold hover:font-medium hover:text-violet-600" >
             Home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
-          <Link aria-current="page" href="#about">
+        <NavbarItem >
+          <Link color="foreground" href="#about" className="text-[#E2E8F0] font-semibold hover:font-medium hover:text-violet-600">
             About Us
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#project">
+          <Link color="foreground" href="#project" className="text-[#E2E8F0] font-semibold hover:font-medium hover:text-violet-600">
             Project
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#contact">
+          <Link color="foreground" href="#contact" className="text-[#E2E8F0] font-semibold hover:font-medium hover:text-violet-600">
             Contact Us
           </Link>
         </NavbarItem>

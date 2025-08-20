@@ -7,10 +7,10 @@ const ContainerCard = ({image}: Props) => {
   return (
     <div className="flex flex-wrap justify-center items-center">
       <CardContainer className="">
-        <CardBody className="bg-gray-50 relative border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
+        <CardBody className="bg-[#060C26] relative border-[#16213E] w-auto h-auto rounded-xl p-6 border-2">
           <CardItem
             translateZ="50" // Efek 3D
-            className="text-xl font-bold text-neutral-600 dark:text-white"
+            className="text-xl font-bold text-white dark:text-white"
           >
             Halo, saya Ady
           </CardItem>

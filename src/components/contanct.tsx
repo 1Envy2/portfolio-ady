@@ -8,11 +8,11 @@ import {
 
 const Contact = () => {
   return (
-    <div className="text-white flex flex-col justify-center items-center gap-4 pb-5 px-52">
+    <div className="text-white flex flex-col justify-center items-center gap-4 pb-5">
       <h1 className="text-5xl">Get In Touch</h1>
       <p>
         Have a Project in mind or want to collaborate? Feel free to reach out.
-        I&apos;m always open discussing to new opportunities.
+        I&apos;m always open discussing to new opportunities. 
       </p>
       <div className="flex flex-row justify-center items-center gap-4 w-6xl">
         <div className="w-1/2 flex  flex-col gap-6 ">
@@ -23,21 +23,27 @@ const Contact = () => {
             <HiOutlineMail className="m-2 size-6" />
             <div className="flex flex-col">
               <h1>Email</h1>
-              <p>adyatma.y.f@gmail.com</p>
+              <p className="hover:text-violet-400 hover: hover:translate-x-2 duration-250">
+                adyatma.y.f@gmail.com
+              </p>
             </div>
           </div>
           <div className="flex flex-row gap-4   ">
             <HiOutlinePhone className="m-2 size-6" />
             <div className="flex flex-col">
               <h1>Phone</h1>
-              <p>(+62) 895-3501-30060</p>
+              <p className="hover:text-violet-400 hover: hover:translate-x-2 duration-250">
+                (+62) 895-3501-30060
+              </p>
             </div>
           </div>
           <div className="flex flex-row gap-4   ">
             <HiOutlineLocationMarker className="m-2 size-6" />
             <div className="flex flex-col">
               <h1>Location</h1>
-              <p>Bandar Lampung, Lampung</p>
+              <p className="hover:text-violet-400 hover: hover:translate-x-2 duration-250">
+                Bandar Lampung, Lampung
+              </p>
             </div>
           </div>
         </div>
