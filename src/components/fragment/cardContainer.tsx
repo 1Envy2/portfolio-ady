@@ -16,11 +16,10 @@ const ContainerCard = ({image}: Props) => {
           </CardItem>
 
           <CardItem
-            as="p"
             translateZ="60" // Efek 3D
             className="text-[#E2E8F0] text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
-            Seorang Fullstack Developer
+            <p>Seorang Fullstack Developer</p>
           </CardItem>
 
           <CardItem translateZ="100" className="w-full mt-4">
@@ -36,18 +35,16 @@ const ContainerCard = ({image}: Props) => {
           <div className="flex justify-between items-center mt-20">
             <CardItem
               translateZ={20} // Efek 3D
-              as="button"
               className="px-4 py-2 rounded-xl text-xs font-normal text-[#E2E8F0] dark:text-white"
             >
-              Coba klik →
+              <button>Coba klik →</button>
             </CardItem>
 
             <CardItem
               translateZ={20} // Efek 3D
-              as="button"
               className="px-4 py-2 rounded-xl bg-[#F96846] dark:bg-white dark:text-black text-white text-xs font-bold"
             >
-              Hubungi saya
+              <button>Hubungi saya</button>
             </CardItem>
           </div>
         </CardBody>
