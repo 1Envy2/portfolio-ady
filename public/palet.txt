@@ -1,0 +1,26 @@
+Palet Warna "Cyber Sunset" 🌆
+Palet ini dirancang untuk memberikan kesan modern, berenergi, dan kohesif dengan model 3D Anda.
+
+Dark BG: #0F172A
+
+Warna dasar biru tua yang sangat gelap. Ideal untuk background utama.
+
+Secondary Dark: #1E293B
+
+Warna biru tua yang sedikit lebih terang. Cocok untuk elemen sekunder seperti kartu atau container pada mode gelap.
+
+Primary Orange: #F96846 🟠
+
+Warna oranye cerah dan hangat. Warna ini diambil dari robot Anda dan bisa menjadi warna aksen utama untuk tombol, hover, dan highlight.
+
+Secondary Cyan: #4FD1C5 💧
+
+Warna cyan yang sejuk dan menenangkan. Cocok untuk ikon, garis, atau teks sekunder untuk menyeimbangkan warna oranye.
+
+Text Light: #E2E8F0 ✨
+
+Warna abu-abu terang. Ideal untuk teks utama agar mudah dibaca di background gelap.
+
+Text Dark: #1A202C
+
+Warna hitam gelap. Cocok untuk teks di atas background terang, misalnya pada kartu proyek Anda.
